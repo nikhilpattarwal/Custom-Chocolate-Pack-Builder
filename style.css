@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#chocolate-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.chocolate-option {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}
+.chocolate-option span{
+    font-size: 15px;
+    color: green;
+    padding: 4px;
+    position: absolute;
+    background-color: white;
+    transform: translateY(100%);
+    font-weight: bold;
+}
+
+#selected-chocolates {
+    margin-top: 20px;
+}
+
+#selected-chocolates ul{
+    display: flex;
+    flex-direction: row;
+}
+#selected-chocolates ul li{
+    padding: 2.5px;
+    margin: 2.5px;
+    color: green;
+    font-weight: bold;
+    border: 2px solid green;
+}
+
+#selected-chocolates p{
+    color: green;
+}
+
+#total-price{
+color: green;
+ font-size: large;
+}
+
+#selected-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.chocolate-imgs{
+    height: 150px;
+    width: 300px
+}
+
+
+
+
+
+
+
+
+/* CSS */
+.button-25 {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
