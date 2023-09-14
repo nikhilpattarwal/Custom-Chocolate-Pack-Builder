@@ -20,3 +20,9 @@ Custom Chocolate Pack Builder is a web application that allows users to build th
 
    ```bash
    git clone https://github.com/nikhilpattarwal/custom-chocolate-pack-builder.git
+
+## Contributing
+Contributions to the Custom Chocolate Pack Builder are welcome! If you have ideas for improvements, bug fixes, or new features, please create an issue or submit a pull request.
+
+## Note
+The chocolate images and prices used in this application are for demonstration purposes and may not reflect actual product prices or availability.
